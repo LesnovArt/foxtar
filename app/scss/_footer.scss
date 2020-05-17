@@ -114,15 +114,30 @@
         }
     }
 }
-.f-soc{
-display: inline-block;
+.f__soc{
+    li{
+    display: inline-block;
     & + li{
         margin-left: 7px;
+        }
     }
     a{
+        span{
+        display: inline-block;
         width: 28px;
         height: 28px;
         color: #fff;
+        position: relative;
+        }
+        .icon-facebook{
+            background-color: #3b5998;
+        }
+        .icon-twitter{
+            background-color: #55acee;
+        }
+        .icon-youtube-play{
+            
+        }
     }
 }
 .footer__copy{
