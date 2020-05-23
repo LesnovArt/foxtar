@@ -34,7 +34,7 @@
                         </div>
                         <div class="header__btn">
                             <button class="header__login">
-                                Login
+                                <a data-fancybox data-src="#modal" href="javascript:;" href="#">Login </a>
                             </button>
                             <button class="header__register">
                                 Register
@@ -378,7 +378,24 @@
 </footer>
 
 
-
+<div class="pop-login" id="modal">
+    <div class="pop-login__title">
+        login
+    </div>
+    <form class="pop-login__form">
+        <label class="pop-login__name">
+            <input type="text" placeholder="Name">
+        </label>
+        <label class="pop-login__password">
+            <input type="password" placeholder="Password">
+        </label>    
+        <div class="popup-login__btn">
+            <button>Submit</button>
+            <a class="popup-login__creat" href="#">Creat An Account?</a>
+        </div>
+        <a class="popup-login__lost" href="#">Lost Password?</a>
+    </form>
+</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/libs.min.js"></script>
