@@ -18,3 +18,106 @@ a{
     display: inline-block;
     text-decoration: none;
     }
+.pop-login{
+    display: none;
+    max-width: 730px;
+    width: 100%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $green;
+    padding: 75px 0 100px;
+}
+.pop-login__title{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 35px;
+    font-weight: 700;
+}
+.pop-login__form{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    label{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        position: relative;
+        &:before{
+            position: absolute;
+            color: #fff;
+            font-size: 14px;
+            font-family: 'icomoon';
+            top: 8px;
+            left: 17px;
+        }
+    }
+    input{
+        display: block;
+        width: 100%;
+        height: 40px;
+        padding-left: 40px;
+        padding-right: 10px;
+        border: none;
+        outline: none;
+        background-color: #76ae36;
+        color: #fff;
+        font-size: 14px;
+        &::placeholder{
+            color: #fff;
+            font-family: $roboto;
+        }
+    }
+    .pop-login__name{
+        &:before{
+            content: "\f007";
+        }
+    }
+    .pop-login__password{
+        &:before{
+            content: "\f023";
+        }
+    }
+    button{
+        background-color: #fff;
+        color: #000;
+        padding: 16px 40px;
+        font-size: 14px;
+        font-weight: 700;
+        border: none;
+        border-bottom: 2px solid #76ae36;
+        outline: none;
+        margin-top: 10px;
+    }
+}
+.popup-login__creat{
+    padding: 16px 35px 16px 65px;
+    margin-top: 10px;
+    background-color: #76ae36;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    &:before{
+        font-family: 'icomoon';
+        content: "\f044";
+        top: 15px;
+        left: 35px;
+        position: absolute;
+    }
+}
+.popup-login__btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popup-login__lost{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+.fancybox-slide--html .fancybox-close-small{
+    color: #fff;
+}
