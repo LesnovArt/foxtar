@@ -42,9 +42,9 @@ button{
     outline: none;
     border: none;
     cursor: pointer;
-    &:hover{
-        transform: scale(0.9);
-    }
+    // &:hover{
+    //     transform: scale(0.9);
+    // }
 }
 .active{
     transform: scale(1.2);

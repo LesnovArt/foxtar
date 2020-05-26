@@ -30,29 +30,17 @@
 .search__form{
     max-width: 670px;
     width: 100%;
+    box-shadow: 1px 1px 10px 0px #899b77, -1px -1px 10px 0px #899b77;
+    border-radius: 4px;
     margin: 0 auto;
-    & .search-label{
-        display: block;
-        width: 100%;
-        position: relative;
-        cursor: pointer;
-        &:after{
-            font-family: 'icomoon';
-            content: "\f002";
-            position: absolute;
-            font-size: 21px;
-            top: 15px;
-            left: 628px;
-        }
-    }
+    display: flex;
+    justify-content: space-between;
     & .keyword{
-        box-shadow: 1px 1px 10px 0px #899b77, -1px -1px 10px 0px #899b77;
-        border-radius: 4px;
-        display: block;
+        max-width: 615px;
         width: 100%;
         height: 55px;
         padding-left: 25px;
-        padding-right: 20px;
+        padding-right: 10px;
         border: none;
         outline: none;
         background-color: #fff;
@@ -64,6 +52,13 @@
             font-size: 14px;
             letter-spacing: 2px;
         }
-    }    
+    }     
+    & .search-btn{
+        max-width: 55px;
+        width: 100%;
+        background-color: #fff;
+        color: #90a4ae;
+        font-size: 21px;
+    }      
 }
 
