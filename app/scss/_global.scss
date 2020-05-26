@@ -19,6 +19,21 @@ li{
 a{
     display: inline-block;
     text-decoration: none;
+    cursor: pointer;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn{
+    &:hover{
+    transform: scale(0.9);
+    }
+}
+.stroke{
+    display: inline-block;
+    text-decoration: none;
     position: relative;
     cursor: pointer;
     &:after{
@@ -37,18 +52,6 @@ a{
     &:hover:after {
         width: 100%;
     }
-}
-button{
-    outline: none;
-    border: none;
-    cursor: pointer;
-    // &:hover{
-    //     transform: scale(0.9);
-    // }
-}
-.active{
-    transform: scale(1.2);
-    text-transform: uppercase;
 }
 .pop-login{
     display: none;

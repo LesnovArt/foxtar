@@ -95,14 +95,12 @@
         border: 1px solid #000101;
         border-bottom: 1px solid #253136;
         border-left: none;
-        outline: none;
         background-color: $green;
         position:relative;
         width: 40px;
         height: 40px;
         left: -1px;
         top: 13px;
-        cursor: pointer;
         &:before{
             content: "\f124";
             font-family: 'icomoon';
@@ -144,9 +142,6 @@
             }
             &.linkedin{
                 background-position: 0px 0px;
-            }
-            &:hover:after {
-                width: 0%;
             }
         }
     }

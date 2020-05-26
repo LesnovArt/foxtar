@@ -1,11 +1,12 @@
 @import "vars";
 
+// next  section__search
+
 .search{
     background-image: url(../img/search-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
-    // filter: grayscale(1);
 }
 .search__wrapper{
     padding: 160px 15px 170px;
@@ -60,5 +61,22 @@
         color: #90a4ae;
         font-size: 21px;
     }      
+}
+
+// next  section__release-product
+
+.release{
+    background-color: #f4f6f5;
+    padding-top: 120px;
+    padding-bottom: 110px;
+}
+.release__title{
+    padding-bottom: 60px;
+    text-align: center;
+    .release__name{
+        font-size: 36px;
+        font-weight: 700;
+        color: $fon;
+    }
 }
 
