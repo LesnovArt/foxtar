@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:700|Open+Sans:600|Raleway:700|Roboto:400,500,700,900"
         rel="stylesheet">
     <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/media.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -83,7 +84,7 @@
     </section>
 
     <section class="release">
-        <div class="container">
+        <div class="container-fluid">
             <div class="release__title">
                 <span class="release__name"> Let’s Check Out Our Newest Release Prodcuts</span>
             </div>
@@ -95,295 +96,297 @@
                 <button class="mixitup">Component</button>
                 <button class="mixitup">PSD</button>
             </div>
-            <div class="row">
-                <div class="col-3">
-                    <div class="item">
-                        <a class="item_product" href="#">
-                            <img class="item-logo" src="img/item.jpg" alt="product_photo">
-                            <div class="item__title">
-                                <div class="item__name">
-                                    <span class="product-name">
-                                        Responsive Mobile APP
-                                    </span>
-                                    <span class="product-subname">
-                                        Site Template
-                                    </span>
+            <div class="release__items">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="item">
+                            <a class="item_product" href="#">
+                                <img class="item-logo" src="img/item__logo.jpg" alt="product_photo">
+                                <div class="item__title">
+                                    <div class="item__name">
+                                        <span class="product-name">
+                                            Responsive Mobile APP
+                                        </span>
+                                        <span class="product-subname">
+                                            Site Template
+                                        </span>
+                                    </div>
+                                    <div class="product-price">
+                                        19$
+                                    </div>
                                 </div>
-                                <div class="product-price">
-                                    19$
+                            </a>
+                            <a href="#" class="item__dev">
+                                <div class="item__dev-description">
+                                    <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
+                                    <span class="dev-name">Radiustheme</span>
+                                    <div class="stars">
+                                        <ul class="stars-list">
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="stars-count">(<span class="starts-number">05</span>)</div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="#" class="item__dev">
-                            <div class="item__dev-description">                          
-                                <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
-                                <span class="dev-name">Radiustheme</span>
-                                <div class="stars">
-                                    <ul class="stars-list">
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                    </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item">
+                            <a class="item_product" href="#">
+                                <img class="item-logo" src="img/item__logo.jpg" alt="product_photo">
+                                <div class="item__title">
+                                    <div class="item__name">
+                                        <span class="product-name">
+                                            The Post Grid Pro
+                                        </span>
+                                        <span class="product-subname">
+                                            WordPress Plugin
+                                        </span>
+                                    </div>
+                                    <div class="product-price">
+                                        15$
+                                    </div>
                                 </div>
-                                <div class="stars-count">(<span class="starts-number">05</span>)</div>
-                            </div>
-                        </a>                        
+                            </a>
+                            <a href="#" class="item__dev">
+                                <div class="item__dev-description">
+                                    <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
+                                    <span class="dev-name">PsdBosS</span>
+                                    <div class="stars">
+                                        <ul class="stars-list">
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="stars-count">(<span class="starts-number">05</span>)</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item">
+                            <a class="item_product" href="#">
+                                <img class="item-logo" src="img/item__logo.jpg" alt="product_photo">
+                                <div class="item__title">
+                                    <div class="item__name">
+                                        <span class="product-name">
+                                            Food Menu
+                                        </span>
+                                        <span class="product-subname">
+                                            WordPress Plugin
+                                        </span>
+                                    </div>
+                                    <div class="product-price">
+                                        20$
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="item__dev">
+                                <div class="item__dev-description">
+                                    <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
+                                    <span class="dev-name">Manilip</span>
+                                    <div class="stars">
+                                        <ul class="stars-list">
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="stars-count">(<span class="starts-number">05</span>)</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item">
+                            <a class="item_product" href="#">
+                                <img class="item-logo" src="img/item__logo.jpg" alt="product_photo">
+                                <div class="item__title">
+                                    <div class="item__name">
+                                        <span class="product-name">
+                                            Imac Mockup
+                                        </span>
+                                        <span class="product-subname">
+                                            Psd Template
+                                        </span>
+                                    </div>
+                                    <div class="product-price">
+                                        12$
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="item__dev">
+                                <div class="item__dev-description">
+                                    <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
+                                    <span class="dev-name">Lolypop</span>
+                                    <div class="stars">
+                                        <ul class="stars-list">
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="stars-count">(<span class="starts-number">05</span>)</div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="item">
-                        <a class="item_product" href="#">
-                            <img class="item-logo" src="img/item.jpg" alt="product_photo">
-                            <div class="item__title">
-                                <div class="item__name">
-                                    <span class="product-name">
-                                        The Post Grid Pro
-                                    </span>
-                                    <span class="product-subname">
-                                        WordPress Plugin
-                                    </span>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="item">
+                            <a class="item_product" href="#">
+                                <img class="item-logo" src="img/item__logo.jpg" alt="product_photo">
+                                <div class="item__title">
+                                    <div class="item__name">
+                                        <span class="product-name">
+                                            Gymedge
+                                        </span>
+                                        <span class="product-subname">
+                                            Joomla Template
+                                        </span>
+                                    </div>
+                                    <div class="product-price">
+                                        45$
+                                    </div>
                                 </div>
-                                <div class="product-price">
-                                    15$
+                            </a>
+                            <a href="#" class="item__dev">
+                                <div class="item__dev-description">
+                                    <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
+                                    <span class="dev-name">Micrsof</span>
+                                    <div class="stars">
+                                        <ul class="stars-list">
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="stars-count">(<span class="starts-number">05</span>)</div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="#" class="item__dev">
-                            <div class="item__dev-description">                          
-                                <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
-                                <span class="dev-name">PsdBosS</span>
-                                <div class="stars">
-                                    <ul class="stars-list">
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                    </ul>
-                                </div>
-                                <div class="stars-count">(<span class="starts-number">05</span>)</div>
-                            </div>
-                        </a>                        
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-3">
-                    <div class="item">
-                        <a class="item_product" href="#">
-                            <img class="item-logo" src="img/item.jpg" alt="product_photo">
-                            <div class="item__title">
-                                <div class="item__name">
-                                    <span class="product-name">
-                                        Food Menu
-                                    </span>
-                                    <span class="product-subname">
-                                        WordPress Plugin
-                                    </span>
+                    <div class="col-3">
+                        <div class="item">
+                            <a class="item_product" href="#">
+                                <img class="item-logo" src="img/item__logo.jpg" alt="product_photo">
+                                <div class="item__title">
+                                    <div class="item__name">
+                                        <span class="product-name">
+                                            The Post Grid Pro
+                                        </span>
+                                        <span class="product-subname">
+                                            WordPress Plugin
+                                        </span>
+                                    </div>
+                                    <div class="product-price">
+                                        19$
+                                    </div>
                                 </div>
-                                <div class="product-price">
-                                    20$
+                            </a>
+                            <a href="#" class="item__dev">
+                                <div class="item__dev-description">
+                                    <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
+                                    <span class="dev-name">Raklouse</span>
+                                    <div class="stars">
+                                        <ul class="stars-list">
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="stars-count">(<span class="starts-number">05</span>)</div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="#" class="item__dev">
-                            <div class="item__dev-description">                          
-                                <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
-                                <span class="dev-name">Manilip</span>
-                                <div class="stars">
-                                    <ul class="stars-list">
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                    </ul>
-                                </div>
-                                <div class="stars-count">(<span class="starts-number">05</span>)</div>
-                            </div>
-                        </a>                        
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-3">
-                    <div class="item">
-                        <a class="item_product" href="#">
-                            <img class="item-logo" src="img/item.jpg" alt="product_photo">
-                            <div class="item__title">
-                                <div class="item__name">
-                                    <span class="product-name">
-                                        Imac Mockup
-                                    </span>
-                                    <span class="product-subname">
-                                        Psd Template
-                                    </span>
+                    <div class="col-3">
+                        <div class="item">
+                            <a class="item_product" href="#">
+                                <img class="item-logo" src="img/item__logo.jpg" alt="product_photo">
+                                <div class="item__title">
+                                    <div class="item__name">
+                                        <span class="product-name">
+                                            Doll Face
+                                        </span>
+                                        <span class="product-subname">
+                                            Illsatration
+                                        </span>
+                                    </div>
+                                    <div class="product-price">
+                                        10$
+                                    </div>
                                 </div>
-                                <div class="product-price">
-                                    12$
+                            </a>
+                            <a href="#" class="item__dev">
+                                <div class="item__dev-description">
+                                    <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
+                                    <span class="dev-name">Mikc Art</span>
+                                    <div class="stars">
+                                        <ul class="stars-list">
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="stars-count">(<span class="starts-number">05</span>)</div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="#" class="item__dev">
-                            <div class="item__dev-description">                          
-                                <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
-                                <span class="dev-name">Lolypop</span>
-                                <div class="stars">
-                                    <ul class="stars-list">
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                    </ul>
-                                </div>
-                                <div class="stars-count">(<span class="starts-number">05</span>)</div>
-                            </div>
-                        </a>                        
+                            </a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                    <div class="item">
-                        <a class="item_product" href="#">
-                            <img class="item-logo" src="img/item.jpg" alt="product_photo">
-                            <div class="item__title">
-                                <div class="item__name">
-                                    <span class="product-name">
-                                        Gymedge
-                                    </span>
-                                    <span class="product-subname">
-                                        Joomla Template
-                                    </span>
+                    <div class="col-3">
+                        <div class="item">
+                            <a class="item_product" href="#">
+                                <img class="item-logo" src="img/item__logo.jpg" alt="product_photo">
+                                <div class="item__title">
+                                    <div class="item__name">
+                                        <span class="product-name">
+                                            Designer Mockup
+                                        </span>
+                                        <span class="product-subname">
+                                            PsdTemplate
+                                        </span>
+                                    </div>
+                                    <div class="product-price">
+                                        10$
+                                    </div>
                                 </div>
-                                <div class="product-price">
-                                    45$
+                            </a>
+                            <a href="#" class="item__dev">
+                                <div class="item__dev-description">
+                                    <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
+                                    <span class="dev-name">ThemeLol</span>
+                                    <div class="stars">
+                                        <ul class="stars-list">
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                            <li><span class="icon-star"></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="stars-count">(<span class="starts-number">05</span>)</div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="#" class="item__dev">
-                            <div class="item__dev-description">                          
-                                <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
-                                <span class="dev-name">Micrsof</span>
-                                <div class="stars">
-                                    <ul class="stars-list">
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                    </ul>
-                                </div>
-                                <div class="stars-count">(<span class="starts-number">05</span>)</div>
-                            </div>
-                        </a>                        
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="item">
-                        <a class="item_product" href="#">
-                            <img class="item-logo" src="img/item.jpg" alt="product_photo">
-                            <div class="item__title">
-                                <div class="item__name">
-                                    <span class="product-name">
-                                        The Post Grid Pro
-                                    </span>
-                                    <span class="product-subname">
-                                        WordPress Plugin
-                                    </span>
-                                </div>
-                                <div class="product-price">
-                                    19$
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="item__dev">
-                            <div class="item__dev-description">                          
-                                <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
-                                <span class="dev-name">Raklouse</span>
-                                <div class="stars">
-                                    <ul class="stars-list">
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                    </ul>
-                                </div>
-                                <div class="stars-count">(<span class="starts-number">05</span>)</div>
-                            </div>
-                        </a>                        
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="item">
-                        <a class="item_product" href="#">
-                            <img class="item-logo" src="img/item.jpg" alt="product_photo">
-                            <div class="item__title">
-                                <div class="item__name">
-                                    <span class="product-name">
-                                        Doll Face
-                                    </span>
-                                    <span class="product-subname">
-                                        Illsatration
-                                    </span>
-                                </div>
-                                <div class="product-price">
-                                    10$
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="item__dev">
-                            <div class="item__dev-description">                          
-                                <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
-                                <span class="dev-name">Mikc Art</span>
-                                <div class="stars">
-                                    <ul class="stars-list">
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                    </ul>
-                                </div>
-                                <div class="stars-count">(<span class="starts-number">05</span>)</div>
-                            </div>
-                        </a>                        
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="item">
-                        <a class="item_product" href="#">
-                            <img class="item-logo" src="img/item.jpg" alt="product_photo">
-                            <div class="item__title">
-                                <div class="item__name">
-                                    <span class="product-name">
-                                        Designer Mockup
-                                    </span>
-                                    <span class="product-subname">
-                                        PsdTemplate
-                                    </span>
-                                </div>
-                                <div class="product-price">
-                                    10$
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="item__dev">
-                            <div class="item__dev-description">                          
-                                <img class="dev-photo" src="img/item-a.jpg" alt="developer_photo">
-                                <span class="dev-name">ThemeLol</span>
-                                <div class="stars">
-                                    <ul class="stars-list">
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                        <li><span class="icon-star"></span></li>
-                                    </ul>
-                                </div>
-                                <div class="stars-count">(<span class="starts-number">05</span>)</div>
-                            </div>
-                        </a>                        
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

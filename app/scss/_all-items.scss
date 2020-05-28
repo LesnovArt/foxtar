@@ -101,102 +101,102 @@
         display: none;
     }
 }
-.price-range__btn,
-.top-sellers__btn{
-    margin-top: 50px;
-    margin-bottom: 10px;
-    border: none;
-    background-color: $green;
-    width: 100%;
-    padding: 10px 0px;
-    line-height: 40px;
-    color: #fff;
-    font-weight: 500;
-    text-align: center;
-    cursor: pointer;
-    span{
-        padding-left: 25px;
-        position: relative;
-        &:before{
-            content: "\f002";
-            position: absolute;
-            left: 0px;
-            font-family: 'icomoon';
-        }
-    }
-}
-.top-sellers__btn{
-    margin-top: 20px;
-}
-.item{
-    img{
-        max-width: 100%;
-        width: 100%;
-    }
-}
-.top-sellers__item{
-    border-bottom: 1px solid $border;
-    margin-top: 25px;
-    &:last-child{
-        margin-bottom: 0;
-        border-bottom: none;
-    }
-}
-.item__title{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-.item__name{
-    a{
-        max-width: 150px;
-        font-size: 16px;
-        color: $fon;
-        font-weight: 700;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        & + a{
-            color: $green;
-            font-weight: 500;
-        }
-    }
-}
-.item__price{
-    font-size: 16px;
-    color: $fon;
-    font-weight: 700;
-    padding-top: 10px;
-}
-.item__title-description{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 30px;
-}
-.stars{
-    color: #ffa726;
-    font-size: 12px;
-    li{
-        display: inline-block;
-    }
-}
-.item__title-description-name{
-    img{
-        vertical-align: middle;
-        border-radius: 50%;
-        width: 30px;
-        height: 30px;
-    }
-    span{
-        vertical-align: middle;
-        color: #546e7a;
-        font-size: 14px;
-        padding-left: 10px;
-        font-weight: 500;
-    }
-}
+// .price-range__btn,
+// .top-sellers__btn{
+//     margin-top: 50px;
+//     margin-bottom: 10px;
+//     border: none;
+//     background-color: $green;
+//     width: 100%;
+//     padding: 10px 0px;
+//     line-height: 40px;
+//     color: #fff;
+//     font-weight: 500;
+//     text-align: center;
+//     cursor: pointer;
+//     span{
+//         padding-left: 25px;
+//         position: relative;
+//         &:before{
+//             content: "\f002";
+//             position: absolute;
+//             left: 0px;
+//             font-family: 'icomoon';
+//         }
+//     }
+// }
+// .top-sellers__btn{
+//     margin-top: 20px;
+// }
+// .item{
+//     img{
+//         max-width: 100%;
+//         width: 100%;
+//     }
+// }
+// .top-sellers__item{
+//     border-bottom: 1px solid $border;
+//     margin-top: 25px;
+//     &:last-child{
+//         margin-bottom: 0;
+//         border-bottom: none;
+//     }
+// }
+// .item__title{
+//     display: flex;
+//     justify-content: space-between;
+//     margin-top: 15px;
+// }
+// .item__name{
+//     a{
+//         max-width: 150px;
+//         font-size: 16px;
+//         color: $fon;
+//         font-weight: 700;
+//         white-space: nowrap;
+//         overflow: hidden;
+//         text-overflow: ellipsis;
+//         & + a{
+//             color: $green;
+//             font-weight: 500;
+//         }
+//     }
+// }
+// .item__price{
+//     font-size: 16px;
+//     color: $fon;
+//     font-weight: 700;
+//     padding-top: 10px;
+// }
+// .item__title-description{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding-top: 15px;
+//     padding-bottom: 30px;
+// }
+// .stars{
+//     color: #ffa726;
+//     font-size: 12px;
+//     li{
+//         display: inline-block;
+//     }
+// }
+// .item__title-description-name{
+//     img{
+//         vertical-align: middle;
+//         border-radius: 50%;
+//         width: 30px;
+//         height: 30px;
+//     }
+//     span{
+//         vertical-align: middle;
+//         color: #546e7a;
+//         font-size: 14px;
+//         padding-left: 10px;
+//         font-weight: 500;
+//     }
+// }
 
 .pagination__item{
     display: inline-block;

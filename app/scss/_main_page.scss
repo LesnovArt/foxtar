@@ -81,9 +81,42 @@
 }
 .release__btn{
     margin-bottom: 40px;
+    text-align: center;
 }
-.item{
-    margin-bottom: 80px;
-
+.release__items{
+    padding: 20px;
 }
 
+.item__title{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.item_product{
+    border: 1px solid #d9e0e3;
+}
+
+.item__dev{
+    border: 1px solid #d9e0e3;
+    width: 100%;
+}
+.item__dev-description{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 30px;
+    .stars{
+    color: #ffa726;
+    font-size: 12px;
+        li{
+        display: inline-block;
+        }
+    }
+}
+
+
+
+
+.release__downbtn{
+    margin-top: 55px;
+    text-align: center;
+}
