@@ -82,41 +82,202 @@
 .release__btn{
     margin-bottom: 40px;
     text-align: center;
+    .mixitup{
+        padding: 14px 27px 14px 22px;
+        color: $fon;
+        background-color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        margin-right: 6px;
+    }
+    .active-btn{
+        background-color: $orange;
+        color: #fff;
+    }
 }
 .release__items{
-    padding: 20px;
+    padding: 20px 15px;
+}
+.item{
+    min-height: 410px;
+    max-height: 410px;
+    margin-bottom: 30px;
+    &:hover{
+        transform: scale(1.1);
+        background-color: #fff;
+        transition: all 0.3s;
+    }
 }
 
+.item_product{
+    border: 1px solid #d9e0e3;   
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.flash{
+    position: relative;
+    &:before{
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        border: 32px solid transparent; 
+        border-left: 32px solid $green; 
+        border-top: 32px solid $green;
+    }
+    &:after{
+        position: absolute;
+        font-family: 'icomoon';
+        content: "\f0e7";
+        top: 9px;
+        left: 13px;
+        color: #fff;
+        font-size: 18px;
+    }
+}
+.item-logo{
+    display: block;
+    max-width: 100%;
+    max-height: 250px;
+    min-height: 250px;
+    height: 100%;
+    object-fit: none;
+    margin: 0 auto;
+}
 .item__title{
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
 }
-.item_product{
-    border: 1px solid #d9e0e3;
+.item__name{
+    max-width: 335px;
+    font-size: 16px;
+    & .product-name{
+        display: block;
+        color: $fon;
+        font-weight: 700;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    & .product-subname{
+        display: block;
+        color: $green;
+        font-weight: 500;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 30px;
+    }
+}
+.product-price{
+    font-size: 16px;
+    color: $fon;
+    font-weight: 700;
+    padding-top: 10px;
 }
 
 .item__dev{
     border: 1px solid #d9e0e3;
+    max-width: 100%;
     width: 100%;
+    height: 100%;
+    background-color: #fff;
+    &:hover{
+        border: 3px solid #d9e0e3;
+    }
 }
 .item__dev-description{
     display: flex;
     justify-content: space-between;
-    padding: 18px 30px;
+    align-items: center;
+    padding: 15px 30px;
+    height: 100%;
+    .dev-photo{
+        vertical-align: middle;
+        border-radius: 50%;
+        max-width: 30px;
+        max-height: 30px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .dev-name{
+        max-width: 200px;
+        margin-right: auto;
+        vertical-align: middle;
+        color: #546e7a;
+        font-size: 14px;
+        padding-left: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
     .stars{
-    color: #ffa726;
-    font-size: 12px;
+        color: #ffa726;
+        font-size: 12px;
         li{
         display: inline-block;
         }
     }
+    .stars-count{
+        padding-left: 15px;
+        font-size: 12px;
+        color: #b0bec5;
+        & .starts-number{
+            color: $fon;
+            padding-left: 2px;
+        }
+    }
+}
+.release__downbtn{
+    margin-top: 25px;
+    text-align: center;
+    .downmixitup{
+        margin: 0px 6px;
+        padding: 20px 30px;
+        font-size: 16px;
+        background-color: #fff;
+        color:$fon;
+    }
 }
 
+// next  section__trends
 
-
-
-.release__downbtn{
-    margin-top: 55px;
+.trends{
+    padding-top: 125px;
+    padding-bottom: 110px;
+}
+.trends__title{
+    padding-bottom: 35px;
     text-align: center;
+    .trends__name{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        color: $fon;
+        line-height: 32px;
+    }
+}
+.trends__items{
+    padding: 20px 15px;
+}
+.trends__btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    .slick_btn{
+        border-top: 1px solid #b1b1b1;
+        background-color: #e8e8e8;
+        border-radius: 50%;
+        padding: 8px;
+        margin-right: 7px;
+    }
+    .slick_btn-active{
+        border-top: 1px solid $green;
+        background-color: $green;
+    }
 }
