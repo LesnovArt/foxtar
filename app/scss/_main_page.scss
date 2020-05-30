@@ -114,7 +114,6 @@
     max-width: 100%;
     width: 100%;
     background-color: #fff;
-    text-align: center;
     color: $fon;
 }
 .flash{
@@ -334,7 +333,7 @@
     }
 }
 .about__article{
-    &:hover{
+    &:hover{      
         & .about-photo{
             opacity: 1;
         }
