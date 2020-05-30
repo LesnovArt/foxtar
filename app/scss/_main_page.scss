@@ -306,16 +306,16 @@
     text-align: center;
 }
 .about__photo{
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: 0 auto;
     margin-bottom: 30px;
     .about-photo{
-        max-width: 113px;
-        max-height: 113px;
-        height: 100%;
-        object-fit: contain;
-        border-radius: 50%;
+        object-fit: cover;
         opacity: 0.5;
+        border-radius: 50%;
+        width: 113px;
+        max-height: 113px;
+        min-height: 113px;
     }
 }
 .about__subtitle{
@@ -340,5 +340,105 @@
         & .about-subtitle{
             color: $green;
         }
+    }
+}
+
+// next  section__author
+
+.author{
+    background-color: #f4f6f5;
+    padding-top: 130px;
+    padding-bottom: 135px;
+}
+.author__wrapper{
+    background-color: #b5b5b5;
+    padding-top: 115px;
+    padding-bottom: 110px; 
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.author__inner{
+    background-color: $green;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    max-width: 655px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+        .author-text{
+            display: block;
+            margin-right: 22px;
+            max-width: 265px;
+            width: 100%;
+            font-size: 30px;
+            line-height: 36px;
+            color: #fff;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            .author-number{
+                font-weight: 700;
+                margin: 0px 9px;
+            }
+        }
+        .author-btn{
+            color: $fon;
+            background-color: #fff;
+            font-size: 18px;
+            padding: 25px 50px 25px 40px;
+            margin-left: 22px;
+            align-self: baseline;
+        }
+}
+
+// next  section__tutorials
+
+.tutorials{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.tutorials__title{
+    padding: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    .tutorials-title{
+        font-size: 36px;
+        font-weight: 700;
+        color: $fon;
+        line-height: 32px;
+    }
+}
+.tutorials__item{
+    min-height: 370px;
+    max-height: 370px;
+    margin-bottom: 10px;
+    &:hover{
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+}
+.tutorials__logo{
+    text-align: center;
+    .tutorials-logo{
+        display: block;
+        max-width: 100%;
+        max-height: 270px;
+        min-height: 270px;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.tutorials__name{
+    padding: 40px 0px;
+    background-color: #f8f8f8;
+    text-align: center;
+    .tutorials-name{
+        font-size: 24px;
+        color: $fon;
+        font-weight: 700;
     }
 }
