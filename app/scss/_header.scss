@@ -82,6 +82,9 @@
 }
 .header__navigation{
     background-color:  $fon;
+    .menu__btn{
+        display: none;
+    }
     li{
         display: inline-block;
     & + li{

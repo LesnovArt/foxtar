@@ -294,7 +294,7 @@ html {
   margin-left: 91.666667%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 610px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -638,7 +638,7 @@ html {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 976px) {
   .col-lg {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
