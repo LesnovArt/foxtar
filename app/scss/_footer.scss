@@ -76,6 +76,7 @@
     font-size: 20px;
     line-height: 36px;
     color: #fff;
+    margin-top: 30px;
 }
 .footer__form{
     input{
@@ -94,14 +95,12 @@
         border: 1px solid #000101;
         border-bottom: 1px solid #253136;
         border-left: none;
-        outline: none;
         background-color: $green;
         position:relative;
         width: 40px;
         height: 40px;
         left: -1px;
         top: 13px;
-        cursor: pointer;
         &:before{
             content: "\f124";
             font-family: 'icomoon';
@@ -119,6 +118,31 @@
     display: inline-block;
     & + li{
         margin-left: 7px;
+        }
+        a{
+        background-image: url(../img/sprite_socials.png);
+        background-repeat: no-repeat;
+        height: 28px;
+        width: 28px;
+        display: inline-block;
+            &:hover{
+                transform: scale(0.9);
+            }
+            &.facebook{
+                background-position: -34px -2px;
+            }
+            &.twitter{
+                background-position: -34px -33px;
+            }
+            &.youtube{
+                background-position: -66px -1px;
+            }
+            &.pinterest{
+                background-position: -2px -33px;
+            }
+            &.linkedin{
+                background-position: 0px 0px;
+            }
         }
     }
 }

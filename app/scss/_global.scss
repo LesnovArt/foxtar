@@ -1,9 +1,11 @@
 @import "vars";
+
 body{
     font-size: 15px;
     line-height: 24px;
     font-family: $roboto;
     color: $text;
+    font-weight: 400;
     }
 ul{
     margin: 0;
@@ -17,7 +19,41 @@ li{
 a{
     display: inline-block;
     text-decoration: none;
+    cursor: pointer;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn{
+    &:hover{
+    transform: scale(0.9);
+    transition: all 0.3s;
     }
+}
+.stroke{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    &:after{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: '.';
+        color: transparent;
+        background: $green;
+        height: 1px;
+        transition: all .2s;
+    }
+    &:hover:after {
+        width: 100%;
+    }
+}
 .pop-login{
     display: none;
     max-width: 730px;
@@ -87,9 +123,7 @@ a{
         padding: 16px 40px;
         font-size: 14px;
         font-weight: 700;
-        border: none;
         border-bottom: 2px solid #76ae36;
-        outline: none;
         margin-top: 10px;
     }
 }

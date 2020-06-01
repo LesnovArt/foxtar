@@ -8,4 +8,10 @@ $(function(){
         prefix: "$",
         skin: "round"
     });
+
+    $('input, select').styler();
+
+    $('.menu__btn').click(function(){
+        $('.menu ul').slideToggle();
+    });
 });
